@@ -92,12 +92,6 @@ class _HomeState extends State<Home> {
                 );
               },
             ),
-            ListTile(
-              title: const Text('Item 2'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
           ]),
         ));
   }
